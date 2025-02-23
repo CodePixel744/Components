@@ -1,0 +1,21 @@
+{
+	"name": "job-components",
+	"private": true,
+	"scripts": {
+		"prepare": "husky",
+		"lint-staged": "lint-staged"
+	},
+	"lint-staged": {
+		"**/src/**/*.{js,jsx,ts,tsx}": [
+			"eslint --fix",
+			"prettier --write"
+		],
+		"**/src/**/*.{css,scss,md,json}": [
+			"prettier --write"
+		]
+	},
+	"devDependencies": {
+		"husky": "^8.0.0",
+		"lint-staged": "^15.4.3"
+	}
+}

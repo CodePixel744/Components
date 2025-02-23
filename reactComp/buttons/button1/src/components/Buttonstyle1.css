@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  margin: 2em;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-apply,
+.btn-save {
+  margin: 10px 4px 0;
+  background: #007bff;
+  /* Primary blue color */
+  color: #ffffff;
+  /* White text */
+  border: none;
+  padding: 10px 20px;
+  /* Increased padding for better touch target */
+  border-radius: 4px;
+  font-size: 16px;
+  /* Slightly larger font size */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+}
+
+.btn-apply:hover,
+.btn-save:hover {
+  background: #0056b3;
+  /* Darker blue on hover */
+}
