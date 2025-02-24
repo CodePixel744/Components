@@ -1,0 +1,7 @@
+
+pnpm run dev
+git add .
+git commit -m 'commit message'
+git pull origin main
+git push origin main
+
